@@ -1,0 +1,26 @@
+﻿<Window x:Class="Крестики_нолики.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Крестики_нолики"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="StartGame" Content="Новая Игра" HorizontalAlignment="Left" Height="35" Margin="40,78,0,0" VerticalAlignment="Top" Width="94" FontSize="14" Click="Start_Game"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="174,33,0,0" TextWrapping="Wrap" Text="Крестики-нолики" VerticalAlignment="Top" Width="498" FontSize="22" TextAlignment="Center"/>
+        <Button x:Name="Bt1_1" Content="x" HorizontalAlignment="Left" Height="85" Margin="224,119,0,0" VerticalAlignment="Top" Width="85" RenderTransformOrigin="1.555,1.306" Click="Butt_Click" FontSize="24"/>
+        <Button x:Name="Bt1_2" Content="o" HorizontalAlignment="Left" Height="85" Margin="314,119,0,0" VerticalAlignment="Top" Width="85" RenderTransformOrigin="0.252,0.565" Click="Butt_Click" FontSize="24"/>
+        <Button x:Name="Bt1_3" Content="" HorizontalAlignment="Left" Height="85" Margin="404,119,0,0" VerticalAlignment="Top" Width="85" RenderTransformOrigin="0.166,0.77" Click="Butt_Click" FontSize="24"/>
+        <Button x:Name="Bt2_1" Content="" HorizontalAlignment="Left" Height="85" Margin="224,209,0,0" VerticalAlignment="Top" Width="85" Click="Butt_Click" FontSize="24"/>
+        <Button x:Name="Bt2_2" Content="" HorizontalAlignment="Left" Height="85" Margin="314,209,0,0" VerticalAlignment="Top" Width="85" Click="Butt_Click" FontSize="24"/>
+        <Button x:Name="Bt2_3" Content="" HorizontalAlignment="Left" Height="85" Margin="404,209,0,0" VerticalAlignment="Top" Width="85" RenderTransformOrigin="0.2,0.269" Click="Butt_Click" FontSize="24"/>
+        <Button x:Name="Bt3_1" Content="" HorizontalAlignment="Left" Height="85" Margin="224,299,0,0" VerticalAlignment="Top" Width="85" Click="Butt_Click" FontSize="24"/>
+        <Button x:Name="Bt3_2" Content="" HorizontalAlignment="Left" Height="85" Margin="314,299,0,0" VerticalAlignment="Top" Width="85" Click="Butt_Click" FontSize="24"/>
+        <Button x:Name="Bt3_3" Content="" HorizontalAlignment="Left" Height="85" Margin="404,299,0,0" VerticalAlignment="Top" Width="85" Click="Butt_Click" FontSize="24"/>
+        <TextBlock x:Name="Winn" HorizontalAlignment="Left" Height="85" Margin="512,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262" FontSize="24" TextAlignment="Center" IsEnabled="False"/>
+        <Button x:Name="Btgm" Content="0" HorizontalAlignment="Left" Height="32" Margin="40,154,0,0" VerticalAlignment="Top" Width="94" RenderTransformOrigin="0.794,0.501" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="40,119,0,0" TextWrapping="Wrap" Text="Кол-во игр" VerticalAlignment="Top" Width="94" FontSize="16" TextAlignment="Center"/>
+
+    </Grid>
+</Window>
